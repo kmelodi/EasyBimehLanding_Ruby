@@ -1,6 +1,49 @@
 # Getting started
 
-EasyBimehConnect یک ساب برند از ایزی بیمه است که وظیفه ارائه خدمات B2B را برپایه API و B2B2C را بر پایه وایت لیبل بر عهده دارد. اگر اپلیکیشن و یا سایت غیر بیمه‌ای دارید و تمایل به فروش بیمه نامه دارید از امروز میتوانید با کمترین هزینه و کمترین زمان به زنجیره نوآوری در صنعت بیمه متصل شوید و تجارت جدیدی بسازید.
+EasyBimehConnect 
+
+ یک ساب برند از ایزی بیمه است که وظیفه ارائه خدمات
+
+ B2B و B2B2C
+
+را برپایه وب سرویس و وایت لیبل بر عهده دارد. اگر اپلیکیشن و یا سایت غیر بیمه‌ای دارید و تمایل به فروش بیمه نامه دارید از امروز میتوانید با کمترین هزینه و کمترین زمان به زنجیره نوآوری در صنعت بیمه متصل شوید و تجارت جدیدی بسازید
+
+به دلیل گستردگی پروژه و برای دسترسی بهتر، این پروژه به بخش های مختلف تقسیم شده است
+
+و هر بخش در 10 پلتفرم مختلف، ارایه شده است
+
+در این بخش، به وب سرویس های مربوط به صفحه ی لندینگ مرکز بیمه، دسترسی خواهید داشت که 
+
+اطلاعات هر پلتفرم را میتوانید بصورت تجمیعی در آدرس زیر مشاهده نمایید
+
+https://www.apimatic.io/apidocs/easybimehlanding
+
+و یا بصورت مجزا در آدرس های زیر قابل درسترس می باشند
+
+1- Android: https://github.com/kmelodi/EasyBimehLanding_Android
+
+2- .Net: https://github.com/kmelodi/EasyBimehLanding_.NET
+
+3- Ios: https://github.com/kmelodi/EasyBimehLanding_IOS
+
+4- Java: https://github.com/kmelodi/EasyBimehLanding_JAVA
+
+5- Php: https://github.com/kmelodi/EasyBimehLanding_PHP
+
+6- Python: https://github.com/kmelodi/EasyBimehLanding_Python
+
+7- Ruby: https://github.com/kmelodi/EasyBimehLanding_Ruby
+
+8- Angular: https://github.com/kmelodi/EasyBimehLanding_Angular
+
+9- NodeJs: https://github.com/kmelodi/EasyBimehLanding_NodeJs
+
+10- Go: https://github.com/kmelodi/EasyBimehLanding_Go
+
+
+برای اطلاعات بیشتر به آدرس زیر مراجعه نمایید
+
+https://easybimeh.com/ebconnect
 
 ## How to Build
 
@@ -8,9 +51,9 @@ This client library is a Ruby gem which can be compiled and used in your Ruby an
 
 1. Open the command line interface or the terminal and navigate to the folder containing the source code.
 2. Run ``` gem build easy_bimeh_landing.gemspec ``` to build the gem.
-3. Once built, the gem can be installed on the current work environment using ``` gem install easy_bimeh_landing-1.0.0.gem ```
+3. Once built, the gem can be installed on the current work environment using ``` gem install easy_bimeh_landing-1.0.1.gem ```
 
-![Building Gem](https://apidocs.io/illustration/ruby?step=buildSDK&workspaceFolder=Easy%20Bimeh%20Landing-Ruby&workspaceName=Easy%20Bimeh%20Landing-Ruby&projectName=easy_bimeh_landing&gemName=easy_bimeh_landing&gemVer=1.0.0)
+![Building Gem](https://apidocs.io/illustration/ruby?step=buildSDK&workspaceFolder=Easy%20Bimeh%20Landing-Ruby&workspaceName=Easy%20Bimeh%20Landing-Ruby&projectName=easy_bimeh_landing&gemName=easy_bimeh_landing&gemVer=1.0.1)
 
 ## How to Use
 
@@ -20,41 +63,41 @@ The following section explains how to use the EasyBimehLanding Ruby Gem in a new
 
 Close any existing projects in RubyMine&trade; by selecting ``` File -> Close Project ```. Next, click on ``` Create New Project ``` to create a new project from scratch.
 
-![Create a new project in RubyMine](https://apidocs.io/illustration/ruby?step=createNewProject0&workspaceFolder=Easy%20Bimeh%20Landing-Ruby&workspaceName=EasyBimehLanding&projectName=easy_bimeh_landing&gemName=easy_bimeh_landing&gemVer=1.0.0)
+![Create a new project in RubyMine](https://apidocs.io/illustration/ruby?step=createNewProject0&workspaceFolder=Easy%20Bimeh%20Landing-Ruby&workspaceName=EasyBimehLanding&projectName=easy_bimeh_landing&gemName=easy_bimeh_landing&gemVer=1.0.1)
 
 Next, provide ``` TestApp ``` as the project name, choose ``` Rails Application ``` as the project type, and click ``` OK ```.
 
-![Create a new Rails Application in RubyMine - step 1](https://apidocs.io/illustration/ruby?step=createNewProject1&workspaceFolder=Easy%20Bimeh%20Landing-Ruby&workspaceName=EasyBimehLanding&projectName=easy_bimeh_landing&gemName=easy_bimeh_landing&gemVer=1.0.0)
+![Create a new Rails Application in RubyMine - step 1](https://apidocs.io/illustration/ruby?step=createNewProject1&workspaceFolder=Easy%20Bimeh%20Landing-Ruby&workspaceName=EasyBimehLanding&projectName=easy_bimeh_landing&gemName=easy_bimeh_landing&gemVer=1.0.1)
 
 In the next dialog make sure that correct *Ruby SDK* is being used (minimum 2.0.0) and click ``` OK ```.
 
-![Create a new Rails Application in RubyMine - step 2](https://apidocs.io/illustration/ruby?step=createNewProject2&workspaceFolder=Easy%20Bimeh%20Landing-Ruby&workspaceName=EasyBimehLanding&projectName=easy_bimeh_landing&gemName=easy_bimeh_landing&gemVer=1.0.0)
+![Create a new Rails Application in RubyMine - step 2](https://apidocs.io/illustration/ruby?step=createNewProject2&workspaceFolder=Easy%20Bimeh%20Landing-Ruby&workspaceName=EasyBimehLanding&projectName=easy_bimeh_landing&gemName=easy_bimeh_landing&gemVer=1.0.1)
 
 This will create a new Rails Application project with an existing set of files and folder.
 
 ### 2. Add reference of the gem
 
-In order to use the EasyBimehLanding gem in the new project we must add a gem reference. Locate the ```Gemfile``` in the *Project Explorer* window under the ``` TestApp ``` project node. The file contains references to all gems being used in the project. Here, add the reference to the library gem by adding the following line: ``` gem 'easy_bimeh_landing', '~> 1.0.0' ```
+In order to use the EasyBimehLanding gem in the new project we must add a gem reference. Locate the ```Gemfile``` in the *Project Explorer* window under the ``` TestApp ``` project node. The file contains references to all gems being used in the project. Here, add the reference to the library gem by adding the following line: ``` gem 'easy_bimeh_landing', '~> 1.0.1' ```
 
-![Add references of the Gemfile](https://apidocs.io/illustration/ruby?step=addReference&workspaceFolder=Easy%20Bimeh%20Landing-Ruby&workspaceName=EasyBimehLanding&projectName=easy_bimeh_landing&gemName=easy_bimeh_landing&gemVer=1.0.0)
+![Add references of the Gemfile](https://apidocs.io/illustration/ruby?step=addReference&workspaceFolder=Easy%20Bimeh%20Landing-Ruby&workspaceName=EasyBimehLanding&projectName=easy_bimeh_landing&gemName=easy_bimeh_landing&gemVer=1.0.1)
 
 ### 3. Adding a new Rails Controller
 
 Once the ``` TestApp ``` project is created, a folder named ``` controllers ``` will be visible in the *Project Explorer* under the following path: ``` TestApp > app > controllers ```. Right click on this folder and select ``` New -> Run Rails Generator... ```.
 
-![Run Rails Generator on Controllers Folder](https://apidocs.io/illustration/ruby?step=addCode0&workspaceFolder=Easy%20Bimeh%20Landing-Ruby&workspaceName=EasyBimehLanding&projectName=easy_bimeh_landing&gemName=easy_bimeh_landing&gemVer=1.0.0)
+![Run Rails Generator on Controllers Folder](https://apidocs.io/illustration/ruby?step=addCode0&workspaceFolder=Easy%20Bimeh%20Landing-Ruby&workspaceName=EasyBimehLanding&projectName=easy_bimeh_landing&gemName=easy_bimeh_landing&gemVer=1.0.1)
 
 Selecting the said option will popup a small window where the generator names are displayed. Here, select the ``` controller ``` template.
 
-![Create a new Controller](https://apidocs.io/illustration/ruby?step=addCode1&workspaceFolder=Easy%20Bimeh%20Landing-Ruby&workspaceName=EasyBimehLanding&projectName=easy_bimeh_landing&gemName=easy_bimeh_landing&gemVer=1.0.0)
+![Create a new Controller](https://apidocs.io/illustration/ruby?step=addCode1&workspaceFolder=Easy%20Bimeh%20Landing-Ruby&workspaceName=EasyBimehLanding&projectName=easy_bimeh_landing&gemName=easy_bimeh_landing&gemVer=1.0.1)
 
 Next, a popup window will ask you for a Controller name and included Actions. For controller name provide ``` Hello ``` and include an action named ``` Index ``` and click ``` OK ```.
 
-![Add a new Controller](https://apidocs.io/illustration/ruby?step=addCode2&workspaceFolder=Easy%20Bimeh%20Landing-Ruby&workspaceName=EasyBimehLanding&projectName=easy_bimeh_landing&gemName=easy_bimeh_landing&gemVer=1.0.0)
+![Add a new Controller](https://apidocs.io/illustration/ruby?step=addCode2&workspaceFolder=Easy%20Bimeh%20Landing-Ruby&workspaceName=EasyBimehLanding&projectName=easy_bimeh_landing&gemName=easy_bimeh_landing&gemVer=1.0.1)
 
 A new controller class anmed ``` HelloController ``` will be created in a file named ``` hello_controller.rb ``` containing a method named ``` Index ```. In this method, add code for initialization and a sample for its usage.
 
-![Initialize the library](https://apidocs.io/illustration/ruby?step=addCode3&workspaceFolder=Easy%20Bimeh%20Landing-Ruby&workspaceName=EasyBimehLanding&projectName=easy_bimeh_landing&gemName=easy_bimeh_landing&gemVer=1.0.0)
+![Initialize the library](https://apidocs.io/illustration/ruby?step=addCode3&workspaceFolder=Easy%20Bimeh%20Landing-Ruby&workspaceName=EasyBimehLanding&projectName=easy_bimeh_landing&gemName=easy_bimeh_landing&gemVer=1.0.1)
 
 ## How to Test
 
@@ -77,7 +120,7 @@ client = EasyBimehLanding::EasyBimehLandingClient.new
 
 The added initlization code can be debugged by putting a breakpoint in the ``` Index ``` method and running the project in debug mode by selecting ``` Run -> Debug 'Development: TestApp' ```.
 
-![Debug the TestApp](https://apidocs.io/illustration/ruby?step=addCode4&workspaceFolder=Easy%20Bimeh%20Landing-Ruby&workspaceName=EasyBimehLanding&projectName=easy_bimeh_landing&gemName=easy_bimeh_landing&gemVer=1.0.0&initLine=client%2520%253D%2520EasyBimehLandingClient.new)
+![Debug the TestApp](https://apidocs.io/illustration/ruby?step=addCode4&workspaceFolder=Easy%20Bimeh%20Landing-Ruby&workspaceName=EasyBimehLanding&projectName=easy_bimeh_landing&gemName=easy_bimeh_landing&gemVer=1.0.1&initLine=client%2520%253D%2520EasyBimehLandingClient.new)
 
 
 
